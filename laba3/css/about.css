@@ -1,0 +1,300 @@
+body {
+	font-family: Open Sans, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-size: 0.8vw;
+}
+
+h1 {
+	font-size: 1.8em;
+	font-weight: 800;
+	text-align: center;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+}
+
+h2 {
+	font-family: Open Sans;
+	font-size: 1.3em;
+	font-weight: 400;
+	text-align: center;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.startpanel {
+	display:flex;
+	align-items: center;
+	padding-top: 5%;
+	padding-left: 15vw;
+}
+
+.headerlogo {
+	display:flex;
+	align-items: center;
+	color: #000;
+	font-size: 1.15em;
+	font-weight: 800;
+	text-align: left;
+}
+
+ 
+.headerlogo img{
+	width: 3.5vw;
+	height: 2.33vw;
+	margin-right: 2vw;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20vw;
+}
+
+.menu li {
+	list-style: none;
+	margin-right: 5vw;
+	font-size: 1em;
+}
+
+.menu a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.services {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.service {
+	margin-right: 5vw;
+	margin-left: 5vw;
+	
+}
+
+.service h1 {
+	font-family: Open Sans;
+	font-size: 4.2em;
+	font-weight: 800;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.about {
+	display: flex;
+	align-items: center;
+	background: #3482F8;
+	font-family: Open Sans;
+	font-size: 1.3em;
+	font-weight: 400;
+	text-align: left;
+	color: #fff;
+}
+
+.about img {
+	width: 45vw;
+}
+
+.about span {
+	padding-left: 4vw;
+	padding-right: 4vw;
+}
+.row{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 6.5vw;
+}
+
+.coments {
+	margin-bottom: 2vw;
+}
+
+.coment {
+	display: flex;
+	align-items: center;
+	margin-left: 9vw;
+	margin-right: 9vw;
+}
+.coment img {
+	width: 36vw;
+}
+
+footer {
+	color: #fff;
+	display: flex;
+	background: #445472;
+	justify-content: space-around;
+	width: 100%;
+	align-items: center;
+	padding-top: 10vw;
+	padding-bottom: 10vw;
+}
+ 
+.topbutton {
+	width: 6%;
+	height: 3vw;
+	line-height: 3vw;
+	color: #fff;
+	border-radius: 0.4vw;
+	border-style:solid;
+	border-color:#fff;
+	border-width: 1px;
+	text-align: center;
+	vertical-align: center;
+	text-decoration : none;
+}
+
+.footerlogo {
+	display:flex;
+	align-items: center;
+	color: #FFF;
+	font-size: 1.15em;
+	font-weight: 800;
+	line-height: 25px;
+	text-align: left;
+	margin-right: 10vw;
+}
+
+.footerlogo img{
+	width: 3.5vw;
+	height: 2.33vw;
+	margin-right: 2vw;
+}
+#berger {
+	display: none;
+	width: 50vw;
+}
+#berger a{
+	color: #000;
+	text-decoration: none;
+}
+#berger h1{
+	font-size: 2em;
+}
+.burgercontent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.close-popup {
+	width: 8%;
+	margin-left: 90%;
+	margin-bottom: 1vw;
+}
+.burger {
+	display: none;
+}
+.popup {
+    position: absolute;
+    background: #ffffff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1vw;
+	display: none;
+	width:50vw;
+}
+.popup h1 {
+    font-size: 2em;
+	margin: 0px;
+	margin-bottom: 3vw;
+	text-align: left;
+}
+@media (max-width:768px){
+	body{
+		font-family: Open Sans, sans-serif;
+		padding: 0;
+		margin: 0;
+		font-size: 2vw;
+	}
+
+	nav {
+		display: none;
+	}
+	.startpanel {
+		display:flex;
+		align-items: center;
+		padding-top: 5%;
+		padding-left: 8vw;
+	}
+	.headerlogo img{
+		width: 7vw;
+		height: 4.66vw;
+		margin-right: 3vw;
+	}
+	.burger {
+		width: 5vw;
+		display: block;
+		margin-left: 50vw;
+	}
+	.about {
+		display: block;
+		width: 100%;
+		background: #3482F8;
+		font-family: Open Sans;
+		font-size: 1.3em;
+		font-weight: 400;
+		text-align: left;
+		color: #fff;
+	}
+	.about p {
+		padding-left: 4vw;
+		padding-right: 4vw;
+	}
+	.about img {
+		width: 100%;
+	}
+	.coments {
+		margin-bottom: 10vw;
+	}
+	.row{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 0;
+	}
+	.coment img{
+		width: 70vw;
+		margin-top: 5vw;
+	}
+	footer {
+		color: #fff;
+		display: flex;
+		background: #445472;
+		flex-direction: column-reverse ;
+		align-items: center;
+		width: 100%;
+		align-items: center;
+		padding-top: 10vw;
+		padding-bottom: 10vw;
+	}
+	footer h2 {
+		font-size: 0.7em;
+	}
+	.topbutton {
+		display: none;
+	}
+	.footerlogo {
+		display:flex;
+		align-items: center;
+		color: #FFF;
+		font-size: 1.15em;
+		font-weight: 800;
+		line-height: 25px;
+		text-align: left;
+		margin-right: 7vw;
+	}
+
+	.footerlogo img{
+		width: 7vw;
+		height: 4.66vw;
+		margin-right: 3vw;
+		padding-left: 4vw;
+	}
+}
